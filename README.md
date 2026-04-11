@@ -6,7 +6,17 @@ This project has been independently designed and implemented by me as a self-ini
 
 It has been developed as part of my independent learning journey in quantum methodologies. 
 
-Tools used : Python(Matplotlib and Qiskit), Google Colab
+Tools used : Python(Matplotlib and Qiskit), Google Colab.
+
+The project follows these steps:
+
+1. Define a classical query model.
+2. Implement quantum style search logic.
+3. Compare query complexities and performance between classical and quantum approaches.
+4. Generate circuit representation.
+5. Generate a well defined technical report.
+
+Author : Sayan Pramanik.
 
 # Quantum Solver Project
 
