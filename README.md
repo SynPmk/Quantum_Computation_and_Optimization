@@ -1,9 +1,14 @@
-Quantum Computation and Optimization
+# Quantum Computation and Optimization
 
-A demonstration of Quantum Computing Advantage using the Bernstein-Vazirani algorithm to achieve a constant $O(1)$ time complexity.
+A demonstration of Quantum Computing Advantage using the Bernstein-Vazirani algorithm to achieve a constant O(1) time complexity, over a Classical Computing Technique which takes O(n) time complexity.
+
+This project has been independently designed and implemented by me as a self-initiated study project.
+
+It has been developed as part of my independent learning journey in quantum methodologies. 
+
+Tools used : Python(Matplotlib and Qiskit), Google Colab
+
 # Quantum Solver Project
-
-## Run the Notebook
 
 Click below to open and run the code directly in Google Colab:
 
