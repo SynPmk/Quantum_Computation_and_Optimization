@@ -1,6 +1,6 @@
 # Quantum Computation and Optimization
 
-A demonstration of Quantum Computing Advantage using the Bernstein-Vazirani algorithm to achieve a constant O(1) time complexity, over a Classical Computing Technique which takes O(n) time complexity.
+A demonstration of Quantum Computing Advantage using the BERNSTEIN-VAZIRANI Algorithm to achieve a constant O(1) time complexity, over a Classical Computing Technique which takes O(n) time complexity.
 
 This project has been independently designed and implemented by me as a self-initiated study project.
 
