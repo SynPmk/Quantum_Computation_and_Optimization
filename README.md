@@ -29,7 +29,7 @@ The superiority of the quantum model over the classical approach arises from the
 
 The quantum system is initialized into a uniform superposition:
 
-1/(2^(n/2))*(Summation x belongs to {0,1}^n) ∣x⟩
+(1/(2^(𝑛/2)))* ∑ 𝑥∈{0,1}^𝑛 ∣𝑥⟩
 
 When the oracle operation is applied, information about the hidden function is encoded into the phase of the quantum state.
 
