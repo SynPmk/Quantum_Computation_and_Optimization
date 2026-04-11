@@ -21,9 +21,24 @@ The project follows these steps:
 # Supporting Theory
 
 The superiority of the quantum model over the classical approach arises from the unique properties of quantum states. In quantum computation, a system can exist in a superposition of multiple basis states simultaneously, allowing parallel evaluation of all possible inputs within a single computational step.
-When the oracle operation is applied, information about the hidden function is encoded into the phase of the quantum state. Subsequent transformations exploit constructive and destructive interference to amplify the probability of the correct solution while suppressing incorrect alternatives.
+
+The quantum system is initialized into a uniform superposition:
+
+1/(2^(n/2))*(Summation x belongs to {0,1}^n) ∣x⟩
+
+When the oracle operation is applied, information about the hidden function is encoded into the phase of the quantum state.
+
+The oracle acts as a phase-kickback transformation:
+
+∣x⟩ to (-1)^(s.x) ∣x⟩
+
+This operation encodes global information about the hidden string s into the relative phase structure of the quantum state, without collapsing the superposition.
+
+Applying Hadamard transforms before and after the oracle causes the phase information to interfere constructively on the computational basis state ∣𝑠⟩, while all other basis states undergo destructive interference.
+
 Constructive interference reinforces the amplitudes corresponding to valid computational outcomes, whereas destructive interference cancels amplitudes associated with invalid states. This interference-based filtering mechanism enables the extraction of global information about the system using significantly fewer computational steps than required in classical models.
-Thus, the combination of superposition, phase encoding, and interference dynamics provides an efficient computational mechanism fundamentally unavailable in classical computation, establishing the quantum model as much superior for this class of problems.
+
+Thus, the combination of superposition, phase encoding, and interference dynamics provides an efficient computational mechanism fundamentally unavailable in classical computation, establishing the quantum model as much superior for this class of problems, and as a result, the final measurement yields the exact hidden string 𝑠 with probability 1 after a single oracle query.
 
 # Results and Observations
 
