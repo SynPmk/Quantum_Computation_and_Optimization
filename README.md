@@ -16,11 +16,18 @@ The project follows these steps:
 4. Generate circuit representation.
 5. Generate a well defined technical report.
 
+# Results and Observations
+
+1. The implementation and results demonstrate the efficiency advantage of the quantum based Bernstein–Vazirani algorithm in determining a hidden binary string.
+2. In the classical attempt scenario, identifying the hidden string requires multiple queries equal to the length of the string.
+3. In contrast, the quantum implementation determines the entire hidden string using only a single query to the oracle.
+4. The output results verify that the measured quantum state correctly reconstructs the hidden bit string, demonstrating the computational advantage of the quantum approach.
+
 Author : Sayan Pramanik.
 
 # Quantum Solver Project
 
-Click below to open and run the code directly in Google Colab:
+Click below to open and run the required code directly in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SynPmk/Quantum_Computation_and_Optimization/blob/main/quantum_algorithm.ipynb)
 
