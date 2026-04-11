@@ -32,7 +32,8 @@ Thus, the combination of superposition, phase encoding, and interference dynamic
 3. In contrast, the quantum implementation determines the entire hidden string using only a single query to the oracle.
 4. The output results verify that the measured quantum state correctly reconstructs the hidden bit string, demonstrating the computational advantage of the quantum approach.
 
-Author : Sayan Pramanik.
+# Author 
+Sayan Pramanik.
 
 # Quantum Solver Project
 
