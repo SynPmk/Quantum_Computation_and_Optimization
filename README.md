@@ -6,7 +6,7 @@ This project has been independently attempted, designed and implemented by me as
 
 It has been developed as part of my independent learning journey in quantum methodologies, how they becoming superior to classical methods in solving many complex problems in much optimized form. 
 
-# Tools used 
+# Tools used and Design procedure
 1. Python as the programming language, using Matplotlib and Qiskit.
 2. Google Colab as the execution platform.
 
