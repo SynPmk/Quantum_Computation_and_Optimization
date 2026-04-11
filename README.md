@@ -2,6 +2,11 @@
 
 A demonstration of Quantum Computing Advantage using the BERNSTEIN-VAZIRANI Algorithm to achieve an optimized constant O(1) time complexity, over a Classical Computing Technique which takes O(n) time complexity.
 
+The Bernstein–Vazirani algorithm demonstrates a quantum advantage in the query model for identifying a hidden bit string 
+𝑠∈{0,1}^𝑛, given an oracle function:
+
+𝑓(𝑥) = 𝑠⋅𝑥 (mod 2)
+
 This project has been independently attempted, designed and implemented by me as a self-initiated study project.
 
 It has been developed as part of my independent learning journey in quantum methodologies, how they becoming superior to classical methods in solving many complex problems in much optimized form. 
@@ -31,6 +36,7 @@ When the oracle operation is applied, information about the hidden function is e
 The oracle acts as a phase-kickback transformation:
 
 ∣x⟩ to (-1)^(s.x) ∣x⟩
+
 
 This operation encodes global information about the hidden string s into the relative phase structure of the quantum state, without collapsing the superposition.
 
