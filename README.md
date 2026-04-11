@@ -20,7 +20,7 @@ The project follows these steps:
 1. We define a classical query model.
 2. Then implement quantum style search logic.
 3. Compare query complexities and performance between classical and quantum approaches.
-4. Generate circuit representation.
+4. Generate circuit representation : Visualize quantum circuit using Qiskit.
 5. Finally, generate a well defined technical report.
 
 # Supporting Theory
