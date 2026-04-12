@@ -7,13 +7,13 @@ The Bernstein–Vazirani algorithm demonstrates a quantum advantage in the query
 
 𝑓(𝑥) = 𝑠⋅𝑥 (mod 2)
 
-This project has been independently attempted, designed and implemented by me as a self-initiated study project.
-
-It has been developed as part of my independent learning journey in quantum methodologies, how they becoming superior to classical methods in solving many complex problems in much optimized form. 
+This project has been independently attempted, designed, and implemented by me as an independent self-initiated study project. It has been developed as part of my independent learning journey in quantum methodologies, focusing on how they are becoming superior to classical methods in solving complex, unstructured problems in a much more optimized form, combining algorithmic computations, and mathematical and physical analysis.
 
 # Tools used and Design procedure
+
 1. Python as the programming language, using Matplotlib and Qiskit.
 2. Google Colab as the execution platform.
+3. Quantum circuit generated using Qiskit.
 
 The project follows these steps:
 
